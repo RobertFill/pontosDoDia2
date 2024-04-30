@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1600px;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./assets/manhãDeSol.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: aliceblue;
+}
+.container {
+  max-width: 100%;
+  width: 400px;
+  height: 380px;
+
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.459);
+  box-shadow: 6px 6px 4px black;
+
+  margin: auto;
+  text-align: center;
+
+  padding: 27px;
+}
+h1 {
+  font-size: 2.6pc;
+  margin-bottom: 3px;
+  text-shadow: 5px 4px 3px black;
+}
+.msg p {
+  font-size: 2pc;
+  text-shadow: 3px 3px 2px black;
+
+}
+.time {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.1rem;
+  margin-top: 0.4rem;
+  font-size: 1.3pc;
+
+  text-shadow: 2px 1px 2px black;
+  background-color: rgba(0, 0, 0, 0.616);
+  border-radius: 14px;
+  letter-spacing: -2px;
+}
+.time,
+.boxImg {
+  font-style: italic;
+}
+footer{
+    text-align: center;
+    font-size: 1.1pc;
+    margin-bottom: 8px;
+    font-weight: 500;
+
+    text-shadow: 1px 1px 1px black;
+}
+@media (max-width:430px) {
+    .container{
+        width: 340px;
+        height: 350px;
+    }
+    .boxImg img{
+        width: 155px;
+    }
+    
+}
