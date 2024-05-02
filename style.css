@@ -78,5 +78,8 @@ footer{
     .boxImg img{
         width: 155px;
     }
+    footer{
+      font-size: .7pc;
+    }
     
 }
