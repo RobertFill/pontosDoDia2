@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 1600px;
   font-family: "Roboto", sans-serif;
 }
 body {
+  max-width: 1600px;
   min-height: 100vh;
   height: 100vh;
   width: 100vw;
@@ -20,6 +20,8 @@ body {
   justify-content: center;
   flex-direction: column;
   color: aliceblue;
+
+  transition: .9s;
 }
 .container {
   max-width: 100%;
@@ -74,6 +76,7 @@ footer{
     .container{
         width: 340px;
         height: 350px;
+        transition: .9s;
     }
     .boxImg img{
         width: 155px;
@@ -82,4 +85,11 @@ footer{
       font-size: .7pc;
     }
     
+}
+@media (max-width:1920px) {
+  body{
+    max-width: 100%;
+    margin: auto;
+   
+  }
 }
